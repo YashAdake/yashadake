@@ -1,4 +1,4 @@
-# 💫 About Me:
+# Oh! Hi👋
 ⚜️ I'm presently focusing on self-improvement 🗿<br>🤝I'm Open to learning and working together on projects<br>👔 I'm seeking internships and job openings<br>👨‍💻I'm currently studying Java development (Spring, SpringBoot)<br>💬 Feel free to ask me anything; I'm here to assist<br>😃 Fun fact: It's all 0's and 1's
 
 
