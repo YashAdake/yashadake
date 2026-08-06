@@ -34,15 +34,57 @@
 ```java
 public final class YashAdake {
 
-    String role       = "Full-Stack Engineer · Java + Spring · Python · TypeScript";
-    String focus      = "Shipping AI-powered SaaS end-to-end: design → code → deploy → users";
+    String role =
+        "AI Engineer • Backend Engineer • Cloud Builder";
 
-    String[] products = { "optiresume.in", "myjson.yashadake.com", "airdraw.yashadake.com" };
-    String[] learning = { "Spring Boot internals", "System design", "LLM engineering" };
+    String mission =
+        "Building production-ready AI products, automation platforms and scalable backend systems.";
 
-    String funFact    = "It's all 0's and 1's — until a user clicks it.";
+    String[] building = {
+        "AI SaaS",
+        "AI Agents",
+        "Developer Tools",
+        "Automation Platforms"
+    };
 
-    String status()   { return "Open to internships & full-time roles 🚀"; }
+    String[] using = {
+        "Python",
+        "FastAPI",
+        "Golang",
+        "Docker",
+        "Kubernetes",
+        "PostgreSQL",
+        "Redis",
+        "Apache NiFi",
+        "n8n",
+        "REST APIs"
+    };
+
+    String[] ai = {
+        "LLMs",
+        "MCP",
+        "RAG",
+        "OpenAI",
+        "Gemini",
+        "Claude",
+        "Vector Search",
+        "Embeddings"
+    };
+
+    String[] engineering = {
+        "Microservices",
+        "System Design",
+        "Performance Testing",
+        "GitHub Actions",
+        "GitLab CI/CD",
+        "Linux",
+        "Nginx",
+        "Cloud Deployments"
+    };
+
+    String status() {
+        return "Building products people actually use 🚀";
+    }
 }
 ```
 
