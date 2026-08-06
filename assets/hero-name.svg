@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" role="img" aria-labelledby="heroTitle">
+  <title id="heroTitle">Yash Adake — AI Engineer, Backend Engineer, Cloud Builder</title>
+  <defs>
+    <clipPath id="frame">
+      <rect width="1200" height="280" rx="16"/>
+    </clipPath>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#150634"/>
+      <stop offset="0.55" stop-color="#0D0221"/>
+      <stop offset="1" stop-color="#0A0119"/>
+    </linearGradient>
+    <linearGradient id="flow" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1200" y2="0" spreadMethod="repeat">
+      <stop offset="0" stop-color="#FF0080"/>
+      <stop offset="0.125" stop-color="#7928CA"/>
+      <stop offset="0.25" stop-color="#4A00E0"/>
+      <stop offset="0.375" stop-color="#007CF0"/>
+      <stop offset="0.5" stop-color="#00DFD8"/>
+      <stop offset="0.625" stop-color="#007CF0"/>
+      <stop offset="0.75" stop-color="#4A00E0"/>
+      <stop offset="0.875" stop-color="#7928CA"/>
+      <stop offset="1" stop-color="#FF0080"/>
+      <animate attributeName="x1" values="0;1200" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="1200;2400" dur="6s" repeatCount="indefinite"/>
+    </linearGradient>
+    <filter id="blob" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="52"/>
+    </filter>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="280" fill="url(#bg)"/>
+
+    <!-- aurora blobs -->
+    <ellipse cx="200" cy="70" rx="240" ry="150" fill="#7928CA" opacity="0.42" filter="url(#blob)">
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0; 95 50; -55 25; 0 0" keyTimes="0;0.34;0.7;1"
+        calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1"
+        dur="18s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="960" cy="50" rx="270" ry="150" fill="#007CF0" opacity="0.34" filter="url(#blob)">
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0; -80 40; 50 -20; 0 0" keyTimes="0;0.36;0.72;1"
+        calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1"
+        dur="14s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="620" cy="270" rx="300" ry="150" fill="#FF0080" opacity="0.27" filter="url(#blob)">
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0; 70 -35; -90 -15; 0 0" keyTimes="0;0.3;0.68;1"
+        calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1"
+        dur="20s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="1140" cy="250" rx="210" ry="130" fill="#00DFD8" opacity="0.25" filter="url(#blob)">
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0; -60 -45; 35 20; 0 0" keyTimes="0;0.38;0.74;1"
+        calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1"
+        dur="16s" repeatCount="indefinite"/>
+    </ellipse>
+
+    <!-- faint drifting sparks -->
+    <g fill="#E0AAFF">
+      <circle cx="150" cy="200" r="1.4">
+        <animate attributeName="opacity" values="0.1;0.7;0.1" dur="5s" begin="-1s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="330" cy="58" r="1.1">
+        <animate attributeName="opacity" values="0.08;0.6;0.08" dur="6.5s" begin="-3s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="905" cy="215" r="1.5">
+        <animate attributeName="opacity" values="0.1;0.65;0.1" dur="7s" begin="-2s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="1065" cy="95" r="1.2">
+        <animate attributeName="opacity" values="0.08;0.55;0.08" dur="5.6s" begin="-4s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="520" cy="40" r="1.0">
+        <animate attributeName="opacity" values="0.08;0.5;0.08" dur="6s" begin="-2.5s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="760" cy="250" r="1.2">
+        <animate attributeName="opacity" values="0.1;0.6;0.1" dur="4.8s" begin="-1.6s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <!-- wordmark: soft glow pass, then crisp pass -->
+    <text x="600" y="142" text-anchor="middle"
+      font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+      font-size="94" font-weight="800" letter-spacing="3"
+      fill="url(#flow)" opacity="0.5" filter="url(#glow)">Yash Adake</text>
+    <text x="600" y="142" text-anchor="middle"
+      font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+      font-size="94" font-weight="800" letter-spacing="3"
+      fill="url(#flow)">Yash Adake</text>
+
+    <!-- tagline -->
+    <text x="600" y="202" text-anchor="middle"
+      font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+      font-size="24" font-weight="600" letter-spacing="3"
+      fill="#E0AAFF">AI ENGINEER &#183; BACKEND ENGINEER &#183; CLOUD BUILDER</text>
+
+    <!-- flowing spectrum underline -->
+    <rect x="260" y="226" width="680" height="3" rx="1.5" fill="url(#flow)"/>
+  </g>
+
+  <!-- hairline frame -->
+  <rect x="0.5" y="0.5" width="1199" height="279" rx="15.5" fill="none" stroke="#FFFFFF" stroke-opacity="0.07"/>
+</svg>
