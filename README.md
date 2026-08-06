@@ -157,16 +157,16 @@ public final class YashAdake {
 
 <p align="center">
   <!-- TODO: replace the placeholder URLs with your real handles -->
-  <a href="https://www.linkedin.com/in/YOUR-LINKEDIN">
+  <a href="https://www.linkedin.com/in/yash-adake/">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="https://x.com/YOUR-HANDLE">
+  <a href="https://x.com/yash_adake">
     <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" />
   </a>
-  <a href="https://instagram.com/YOUR-HANDLE">
+  <a href="https://www.instagram.com/yash_adake">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
   </a>
-  <a href="https://discord.com/users/YOUR-DISCORD-ID">
+  <a href="https://discord.com/users/yashadake">
     <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
   </a>
 </p>
